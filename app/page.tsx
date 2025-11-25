@@ -417,13 +417,13 @@ export default function Home() {
                 <h3 className="text-2xl font-serif mt-4">Descarga la app N+</h3>
                 <div className="flex flex-col sm:flex-row items-start">
                   <Image
-                    src="/googleplay.png"
+                    src="/playstore.svg"
                     width={100}
                     height={100}
                     alt="google"
                   />
                   <Image
-                    src="/appstore.png"
+                    src="/appstore.svg"
                     width={100}
                     height={80}
                     alt="appstore"
