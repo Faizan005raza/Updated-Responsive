@@ -1,10 +1,11 @@
+'use client'
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <main className=" bg-gray-50">
-        <div className="max-w-4xl mx-auto px-3">
+        <div className="max-w-3xl mx-auto px-3">
           <div className="mx-3 sm:px-6 md:px-8 mt-10 md:text-center">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-serif leading-tight">
               Es Posible que Tengamos Conversaciones con Maduro, Afirma Trump
@@ -18,7 +19,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen">
+          <div className="w-screen relative left-1/2 right-1/2 -translate-x-1/2">
             <Image
               src="/trump.webp"
               alt="Trump"
@@ -28,7 +29,7 @@ export default function Home() {
               priority
             />
 
-            <p className="text-[10px] sm:text-[6px] md:text-[8px] text-gray-500 mt-1 text-right">
+            <p className="text-[8px] sm:text-[6px] md:text-[8px] md:mr-[120px] text-gray-500 mt-1 text-right">
               Es posible que tengamos conversaciones con Maduro, dice Trump.
               Foto: Reuters.
             </p>
@@ -158,7 +159,7 @@ export default function Home() {
               designar como organización terrorista del extranjero.
             </p>
 
-            <div className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen">
+            <div className="w-screen relative left-1/2 right-1/2 -translate-x-1/2">
               <Image
                 src="/graph1.png"
                 width={1200}
@@ -173,7 +174,7 @@ export default function Home() {
               abierta al diálogo con el presidente venezolano.
             </p>
 
-            <div className="relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] w-screen">
+            <div className="w-screen relative left-1/2 right-1/2 -translate-x-1/2">
               <Image
                 src="/pic2.webp"
                 width={1200}
@@ -279,7 +280,7 @@ export default function Home() {
                 <h3 className="text-2xl font-extrabold mb-4 border-b">
                   Más de la Sección
                 </h3>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-2xl pt-l">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
                     <p className="text-sm text-red-500">Internacional</p>
                     <p className="mt-2 text-base">
